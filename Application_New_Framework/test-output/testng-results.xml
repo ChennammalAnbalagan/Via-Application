@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[No thanks message is handled]]>
+    </line>
+    <line>
+      <![CDATA[Entered from and to key is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entered fromToTextField value is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Departure date is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Return date is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Show more options is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Routing dropdown is verified]]>
+    </line>
+    <line>
+      <![CDATA[Search flights button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to lists of flights page]]>
+    </line>
+    <line>
+      <![CDATA[Departure and return flights is selected]]>
+    </line>
+    <line>
+      <![CDATA[selectFlights is validated]]>
+    </line>
+    <line>
+      <![CDATA[Book flights button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Passengers details page]]>
+    </line>
+    <line>
+      <![CDATA[Entered Passengers details is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Passengers details is verified]]>
+    </line>
+    <line>
+      <![CDATA[clicked on proceed to booking button]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to refundable page]]>
+    </line>
+    <line>
+      <![CDATA[clicked on refundable radio button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on make payment button]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to payment page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-18T11:27:58 IST" name="Suite" finished-at="2024-11-18T11:29:09 IST" duration-ms="70501">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T11:27:58 IST" name="Test" finished-at="2024-11-18T11:29:09 IST" duration-ms="70501">
+      <class name="com.testcases.Flights">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:27:58 IST" name="setUpReport" finished-at="2024-11-18T11:27:58 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:27:58 IST" name="launchBrowser" finished-at="2024-11-18T11:28:15 IST" duration-ms="16846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Verify_user_is_able_to_view_flights_after_navigating_to_homePage()[pri:1, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:15 IST" name="Verify_user_is_able_to_view_flights_after_navigating_to_homePage" finished-at="2024-11-18T11:28:20 IST" duration-ms="5077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[No thanks message is handled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_view_flights_after_navigating_to_homePage -->
+        <test-method signature="Verify_user_is_able_to_enter_location_in_from_and_to_textfield()[pri:2, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:20 IST" name="Verify_user_is_able_to_enter_location_in_from_and_to_textfield" finished-at="2024-11-18T11:28:22 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered from and to key is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Entered fromToTextField value is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_enter_location_in_from_and_to_textfield -->
+        <test-method signature="Verify_user_is_able_to_click_on_options_in_depature()[pri:3, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:22 IST" name="Verify_user_is_able_to_click_on_options_in_depature" finished-at="2024-11-18T11:28:23 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Departure date is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_options_in_depature -->
+        <test-method signature="Verify_user_is_able_to_click_on_options_in_depature_and_return()[pri:4, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:23 IST" name="Verify_user_is_able_to_click_on_options_in_depature_and_return" finished-at="2024-11-18T11:28:27 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Return date is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_options_in_depature_and_return -->
+        <test-method signature="Verify_user_is_able_to_click_on_show_more_options_Link()[pri:5, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:27 IST" name="Verify_user_is_able_to_click_on_show_more_options_Link" finished-at="2024-11-18T11:28:30 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Show more options is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Routing dropdown is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_show_more_options_Link -->
+        <test-method signature="Verify_user_is_able_to_click_on_Search_Flights_button()[pri:6, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:30 IST" name="Verify_user_is_able_to_click_on_Search_Flights_button" finished-at="2024-11-18T11:28:33 IST" duration-ms="3478" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search flights button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to lists of flights page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_Search_Flights_button -->
+        <test-method signature="Verify_user_is_able_to_select_particular_flight_from_the_searched_result()[pri:7, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:33 IST" name="Verify_user_is_able_to_select_particular_flight_from_the_searched_result" finished-at="2024-11-18T11:28:43 IST" duration-ms="9623" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Departure and return flights is selected]]>
+            </line>
+            <line>
+              <![CDATA[selectFlights is validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_select_particular_flight_from_the_searched_result -->
+        <test-method signature="Verify_user_is_able_to_click_on_book_Flights_button()[pri:8, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:43 IST" name="Verify_user_is_able_to_click_on_book_Flights_button" finished-at="2024-11-18T11:28:50 IST" duration-ms="6834" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Book flights button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Passengers details page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_book_Flights_button -->
+        <test-method signature="Verify_user_is_able_to_enter_passengers_details()[pri:9, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:50 IST" name="Verify_user_is_able_to_enter_passengers_details" finished-at="2024-11-18T11:28:55 IST" duration-ms="5552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Passengers details is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Passengers details is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_enter_passengers_details -->
+        <test-method signature="Verify_user_is_able_to_click_on_proceed_to_booking()[pri:10, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:55 IST" name="Verify_user_is_able_to_click_on_proceed_to_booking" finished-at="2024-11-18T11:28:59 IST" duration-ms="3418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on proceed to booking button]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to refundable page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_click_on_proceed_to_booking -->
+        <test-method signature="Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options()[pri:11, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:28:59 IST" name="Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options" finished-at="2024-11-18T11:29:02 IST" duration-ms="3279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on refundable radio button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options -->
+        <test-method signature="Verify_user_is_able_to_book_round_trip()[pri:12, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:29:02 IST" name="Verify_user_is_able_to_book_round_trip" finished-at="2024-11-18T11:29:08 IST" duration-ms="6034" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on make payment button]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to payment page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_user_is_able_to_book_round_trip -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:29:08 IST" name="closeBrowser" finished-at="2024-11-18T11:29:09 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.testcases.Flights@41d477ed]" started-at="2024-11-18T11:29:09 IST" name="tearDownReport" finished-at="2024-11-18T11:29:10 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.testcases.Flights -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

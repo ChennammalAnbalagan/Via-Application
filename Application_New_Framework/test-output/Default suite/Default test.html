@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 18 07:46:52 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>57 seconds (57142 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options()'><b>Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1140697305" onClick='toggleBox("Output-1140697305", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1140697305" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1140697305">
+clicked on refundable radio button<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_enter_passengers_details()'><b>Verify_user_is_able_to_enter_passengers_details</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-172711139" onClick='toggleBox("Output-172711139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-172711139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-172711139">
+Entered Passengers details is displayed<br/>
+Passengers details is verified<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_options_in_depature_and_return()'><b>Verify_user_is_able_to_click_on_options_in_depature_and_return</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1778422985" onClick='toggleBox("Output-1778422985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778422985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778422985">
+Return date is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_select_particular_flight_from_the_searched_result()'><b>Verify_user_is_able_to_select_particular_flight_from_the_searched_result</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1423978346" onClick='toggleBox("Output-1423978346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1423978346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1423978346">
+Departure and return flights is selected<br/>
+selectFlights is validated<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_view_flights_after_navigating_to_homePage()'><b>Verify_user_is_able_to_view_flights_after_navigating_to_homePage</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1082684443" onClick='toggleBox("Output-1082684443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082684443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082684443">
+Navigated to Home Page<br/>
+No thanks message is handled<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_proceed_to_booking()'><b>Verify_user_is_able_to_click_on_proceed_to_booking</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1781297535" onClick='toggleBox("Output-1781297535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1781297535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1781297535">
+clicked on proceed to booking button<br/>
+Navigated to refundable page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_show_more_options_Link()'><b>Verify_user_is_able_to_click_on_show_more_options_Link</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-2018164030" onClick='toggleBox("Output-2018164030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2018164030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2018164030">
+Show more options is displayed<br/>
+Routing dropdown is verified<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_options_in_depature()'><b>Verify_user_is_able_to_click_on_options_in_depature</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1754087707" onClick='toggleBox("Output-1754087707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1754087707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1754087707">
+Departure date is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_book_round_trip()'><b>Verify_user_is_able_to_book_round_trip</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-1818236857" onClick='toggleBox("Output-1818236857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1818236857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1818236857">
+clicked on make payment button<br/>
+Navigated to payment page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_enter_location_in_from_and_to_textfield()'><b>Verify_user_is_able_to_enter_location_in_from_and_to_textfield</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-925152318" onClick='toggleBox("Output-925152318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-925152318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-925152318">
+Entered from and to key is displayed<br/>
+Entered fromToTextField value is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_book_Flights_button()'><b>Verify_user_is_able_to_click_on_book_Flights_button</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-159651486" onClick='toggleBox("Output-159651486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159651486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159651486">
+Book flights button is clicked<br/>
+Navigated to Passengers details page<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+<tr>
+<td title='com.testcases.Flights.Verify_user_is_able_to_click_on_Search_Flights_button()'><b>Verify_user_is_able_to_click_on_Search_Flights_button</b><br>Test class: com.testcases.Flights<br/>
+<a href="#Output-973615092" onClick='toggleBox("Output-973615092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973615092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973615092">
+Search flights button is clicked<br/>
+Navigated to lists of flights page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testcases.Flights@3e694b3f</td></tr>
+</table><p>
+</body>
+</html>

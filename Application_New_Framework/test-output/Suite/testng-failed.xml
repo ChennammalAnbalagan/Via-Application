@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.testcases.Flights">
+        <methods>
+          <include name="Verify_user_is_able_to_able_to_click_on_refundable_or_non_refundable_options"/>
+          <include name="Verify_user_is_able_to_click_on_proceed_to_booking"/>
+          <include name="Verify_user_is_able_to_book_round_trip"/>
+          <include name="Verify_user_is_able_to_enter_passengers_details"/>
+          <include name="Verify_user_is_able_to_click_on_options_in_depature"/>
+          <include name="Verify_user_is_able_to_click_on_show_more_options_Link"/>
+          <include name="Verify_user_is_able_to_click_on_Search_Flights_button"/>
+          <include name="Verify_user_is_able_to_enter_location_in_from_and_to_textfield"/>
+          <include name="Verify_user_is_able_to_click_on_book_Flights_button"/>
+          <include name="Verify_user_is_able_to_select_particular_flight_from_the_searched_result"/>
+          <include name="Verify_user_is_able_to_view_flights_after_navigating_to_homePage"/>
+          <include name="Verify_user_is_able_to_click_on_options_in_depature_and_return"/>
+          <include name="setUpReport"/>
+          <include name="tearDownReport"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testcases.Flights -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
